@@ -2792,7 +2792,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.55;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3398,6 +3398,7 @@ input, select, textarea {
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+
 	}
 
 		#banner:after {
@@ -3971,7 +3972,6 @@ input, select, textarea {
 	max-width: 100rem;
 	margin: 0 auto;
 	padding: 0 2rem 2rem;
-	margin-top: 2rem;
 }
 
 .heading {
@@ -4035,6 +4035,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	.gallery,
 	.gallery-item {
 		margin: 0;
+		
 	}
 
 }
