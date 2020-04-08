@@ -3993,6 +3993,9 @@ input, select, textarea {
 	flex-wrap: wrap;
 	/* Compensate for excess margin on outer gallery flex items */
 	margin: -1rem -1rem;
+	padding-top: 2rem;
+
+	
 }
 
 .gallery-item {
@@ -4002,6 +4005,8 @@ input, select, textarea {
 	margin: 1rem;
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
 	overflow: hidden;
+	position: relative;
+	text-align: center;
 }
 
 .gallery-image {
@@ -4016,7 +4021,12 @@ input, select, textarea {
 	transform: scale(1.15);
 }
 
-
+p.gallery-info{
+	font-size: 3rem;
+	text-align: center;
+	font-weight: 800;
+	background-color: rgb(0,0,0,0.6);
+}
 /*
 
 The following rule will only run if your browser supports CSS grid.
@@ -4037,5 +4047,14 @@ Remove or comment-out the code block below to see how the browser will fall-back
 		margin: 0;
 		
 	}
+
+	p.gallery-info{
+		position: absolute;
+		top: 4px;
+  		left: 8px;
+	}
+
+
+}
 
 }
